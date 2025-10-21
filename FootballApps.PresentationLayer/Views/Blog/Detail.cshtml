@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+@await Component.InvokeAsync("_BlogDetailComponentPartial", new { id = ViewBag.BlogId })
+@await Component.InvokeAsync("_BlogDetailCommentListComponentPartial", new { blogId = ViewBag.BlogId })
+

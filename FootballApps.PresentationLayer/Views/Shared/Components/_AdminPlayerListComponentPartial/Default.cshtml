@@ -1,0 +1,49 @@
+﻿@model List<ResultPlayerDto>
+@{
+    int count = 0;
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Blog Listesi</h5>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Futbolcu Resmi</th>
+                                <th scope="col">Futbolcu İsmi</th>
+                                <th scope="col">Pozisyon</th>
+                                <th scope="col">Sil</th>
+                                <th scope="col">Güncelle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <th scope="row">@count</th>
+                                    <td><img src="@item.PhotoUrl" style="width:170px;height:170px;" /></td>
+                                    <td>@item.FullName</td>
+                                    <td>@item.Position</td>
+                                    <td>
+                                        <form asp-controller="AdminPlayer" asp-action="Delete" method="post" onsubmit="return confirm('Silmek istediğinizden emin misiniz?');">
+                                            <input type="hidden" name="playerId" value="@item.PlayerId" />
+                                            <button class="btn btn-danger btn-sm" type="submit">Sil</button>
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <a href="@Url.Action("Update", "AdminPlayer", new { id = item.PlayerId })" class="btn btn-success btn-sm">Güncelle</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+﻿@model List<ResultsMatchDto>
+<div class="site-section bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="widget-next-match">
+                    <div class="widget-title">
+                        <h3>Haftanın Öne Çıkan Maçı</h3>
+                    </div>
+
+                    @foreach (var item in Model.Take(1))
+                    {
+                        <div class="widget-body mb-4">
+                            <div class="widget-vs">
+                                <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
+                                    <div class="team-1 text-center">
+                                        <img src="@item.HomeTeam.LogoUrl"
+                                             alt="@item.HomeTeam.Name"
+                                             style="width:80px; height:80px; object-fit:contain;">
+                                        <h3 class="text-white mt-2">@item.HomeTeam.Name</h3>
+                                    </div>
+                                    <div>
+                                        <span class="vs"><span>VS</span></span>
+                                        <h4 class="text-center text-white mt-2">
+                                            @item.HomeTeamScore - @item.AwayTeamScore
+                                        </h4>
+                                    </div>
+                                    <div class="team-2 text-center">
+                                        <img src="@item.AwayTeam.LogoUrl"
+                                             alt="@item.AwayTeam.Name"
+                                             style="width:80px; height:80px; object-fit:contain;">
+                                        <h3 class="text-white mt-2">@item.AwayTeam.Name</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center widget-vs-contents mt-3 mb-4">
+                                <h4 class="text-primary">@item.League</h4>
+                                <p class="mb-3 text-white">
+                                    <span class="d-block">@item.MatchsDate.ToString("dd MMMM yyyy")</span>
+                                    <strong class="text-light">@item.Stadium</strong>
+                                </p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+﻿@model List<ResultCommentDto>
+@{
+    int count = 0;
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Yorum Listesi</h5>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">İsim Soyisim</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Konu</th>
+                                <th scope="col">Yorum</th>
+                                <th scope="col">Sil</th>
+                                <th scope="col">Güncelle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <th scope="row">@count</th>
+                                    <td>@item.NameSurname</td>
+                                    <td>@item.Email</td>
+                                    <td>@item.Subject</td>
+                                    <td>@item.Body</td>
+                                    <td>
+                                        <form asp-controller="AdminComment" asp-action="Delete" method="post" onsubmit="return confirm('Silmek istediğinizden emin misiniz?');">
+                                            <input type="hidden" name="commentId" value="@item.CommentId" />
+                                            <button class="btn btn-danger btn-sm" type="submit">Sil</button>
+                                        </form>
+                                    </td>
+                                    <td>
+                                    <a href="@Url.Action("Update", "AdminComment", new { id = item.CommentId })" class="btn btn-success btn-sm">Güncelle</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

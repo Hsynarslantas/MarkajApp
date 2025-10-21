@@ -1,0 +1,35 @@
+﻿@model List<ResultTeamDto>
+@{
+    int count = 0;
+}
+<div class="col-lg-6">
+    <div class="widget-next-match">
+        <table class="table custom-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Takım</th>
+                    <th>G</th>
+                    <th>B</th>
+                    <th>M</th>
+                    <th>P</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model.Take(12))
+                {
+                    count++;
+                    <tr>
+                    <td>@count</td>
+                    <td><strong class="text-white">@item.Name</strong></td>
+                    <td>@item.Win</td>
+                    <td>@item.Draw</td>
+                    <td>@item.Lose</td>
+                    <td>@item.Point.ToString("0")</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>

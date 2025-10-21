@@ -1,0 +1,245 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FootballApps.PresentationLayer
+build_property.RootNamespace = FootballApps.PresentationLayer
+build_property.ProjectDir = C:\Users\natar\source\repos\FootballApps\FootballApps.PresentationLayer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\natar\source\repos\FootballApps\FootballApps.PresentationLayer
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/AdminBlog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/AdminBlog/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CbG9nXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/AdminComment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db21tZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/AdminComment/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db21tZW50XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/AdminDefault/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5EZWZhdWx0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/AdminMatch/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NYXRjaFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/AdminMatch/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NYXRjaFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/AdminPlayer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QbGF5ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/AdminPlayer/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QbGF5ZXJcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/AdminTeam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UZWFtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/AdminTeam/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UZWFtXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Blog/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Guess/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Matches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Player/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminBlogListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluQmxvZ0xpc3RDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminCommentListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluQ29tbWVudExpc3RDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminLeaderTeamComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTGVhZGVyVGVhbUNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminMatchListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTWF0Y2hMaXN0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminMaxDrawTeamComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTWF4RHJhd1RlYW1Db21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminMaxPoint5TeamComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTWF4UG9pbnQ1VGVhbUNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminMaxPointTeamComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTWF4UG9pbnRUZWFtQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminMinPointTeamComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTWluUG9pbnRUZWFtQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminMostGoalPlayerComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTW9zdEdvYWxQbGF5ZXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminMostLoseTeamComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTW9zdExvc2VUZWFtQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminPlayerListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluUGxheWVyTGlzdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_AdminTeamListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluVGVhbUxpc3RDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_BlogAllBlogComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Jsb2dBbGxCbG9nQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_BlogDetailCommentListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Jsb2dEZXRhaWxDb21tZW50TGlzdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_BlogDetailComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Jsb2dEZXRhaWxDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_BlogDetailCreateCommentComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Jsb2dEZXRhaWxDcmVhdGVDb21tZW50Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_ContactCreateCommentComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NvbnRhY3RDcmVhdGVDb21tZW50Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_DefaultBlogComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRCbG9nQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_DefaultContactComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRDb250YWN0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_DefaultLatestNewComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRMYXRlc3ROZXdDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_DefaultLeagueTableComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRMZWFndWVUYWJsZUNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_DefaultMatchComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRNYXRjaENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_DefaultUpcomingEventMatchComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRVcGNvbWluZ0V2ZW50TWF0Y2hDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_DefaultVideoComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRWaWRlb0NvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_MatchesUpcomingEventComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01hdGNoZXNVcGNvbWluZ0V2ZW50Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_MatchesUpcomingMatchesComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01hdGNoZXNVcGNvbWluZ01hdGNoZXNDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Components/_StarPlayerWithVideoComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1N0YXJQbGF5ZXJXaXRoVmlkZW9Db21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/_DefaultLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZWZhdWx0TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natar/source/repos/FootballApps/FootballApps.PresentationLayer/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wneau6wdc1

@@ -1,0 +1,35 @@
+﻿@model List<ResultCommentDto>
+
+<div class="pt-5">
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-warning">@ViewBag.ErrorMessage</div>
+    }
+
+    <h3 class="mb-5 text-white">@Model.Count Yorum</h3>
+
+    @if (Model.Any())
+    {
+        <ul class="comment-list">
+            @foreach (var item in Model)
+            {
+                <li class="comment">
+                    <div class="vcard bio">
+                        <img src="~/images/person_1.jpg" alt="@item.NameSurname">
+                    </div>
+                    <div class="comment-body">
+                        <h3>@item.NameSurname</h3>
+                        <div class="meta">@item.Subject</div>
+                        <p>@item.Body</p>
+                    </div>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p class="text-white">Henüz yorum yapılmamış.</p>
+    }
+
+    @await Component.InvokeAsync("_BlogDetailCreateCommentComponentPartial")
+</div>

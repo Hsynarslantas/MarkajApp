@@ -1,0 +1,99 @@
+﻿@model List<ResultTeamDto>
+
+<div class="card">
+    <div class="card-header">
+        Lider Takım İstatistikleri
+    </div>
+    <div class="card-body">
+
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <i class="fa fa-trophy mr-2 text-success"></i>Galibiyet
+            </li>
+            <li class="list-inline-item">
+                <i class="fa fa-handshake mr-2 text-warning"></i>Beraberlik
+            </li>
+            <li class="list-inline-item">
+                <i class="fa fa-times-circle mr-2 text-danger"></i>Mağlubiyet
+            </li>
+        </ul>
+
+        <div class="chart-container-1">
+            <canvas id="chart1"></canvas>
+        </div>
+    </div>
+
+    @foreach (var item in Model)
+    {
+        <div class="row m-0 row-group text-center border-top border-light-3">
+            <div class="col-12 col-lg-3">
+                <div class="p-3">
+                    <h5 class="mb-0 text-success">@item.Win</h5>
+                    <small class="mb-0">Galibiyet</small>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="p-3">
+                    <h5 class="mb-0 text-warning">@item.Draw</h5>
+                    <small class="mb-0">Beraberlik</small>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="p-3">
+                    <h5 class="mb-0 text-danger">@item.Lose</h5>
+                    <small class="mb-0">Mağlubiyet</small>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="p-3">
+                    <h5 class="mb-0 text-success">@item.Point</h5>
+                    <small class="mb-0">Puan</small>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<script>
+if ($('#chart1').length) {
+            var ctx = document.getElementById('chart1').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar', // line yerine bar chart daha uygun
+                data: {
+                    labels: ['Galibiyet', 'Beraberlik', 'Mağlubiyet'], // Kategoriler
+                    datasets: [{
+                        label: 'Galatasaray', // Lider takım
+                        data: [7, 1, 0], // Galibiyet, Beraberlik, Mağlubiyet
+                        backgroundColor: [
+                            '#28a745', // Galibiyet yeşil
+                            '#ffc107', // Beraberlik sarı
+                            '#dc3545'  // Mağlubiyet kırmızı
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false }, // Tek takım olduğu için legend gereksiz
+                        tooltip: {
+                            enabled: true,
+                            backgroundColor: '#333',
+                            titleColor: '#fff',
+                            bodyColor: '#fff'
+                        }
+                    },
+                    scales: {
+                        x: {
+                            ticks: { color: '#ddd' },
+                            grid: { color: "rgba(221, 221, 221, 0.1)" }
+                        },
+                        y: {
+                            beginAtZero: true,
+                            ticks: { color: '#ddd', stepSize: 1 },
+                            grid: { color: "rgba(221, 221, 221, 0.1)" }
+                        }
+                    }
+                }
+            });
+        }
+</script>

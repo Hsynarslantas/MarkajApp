@@ -1,0 +1,239 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>@ViewBag.Title - Admin Panel</title>
+
+    <!-- loader-->
+    <link href="~/admins/assets/css/pace.min.css" rel="stylesheet" />
+    <script src="~/admins/assets/js/pace.min.js"></script>
+    <!--favicon-->
+    <link rel="icon" href="~/admins/assets/images/favicon.ico" type="image/x-icon">
+    <!-- Vector CSS -->
+    <link href="~/admins/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+    <!-- simplebar CSS-->
+    <link href="~/admins/assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+    <!-- Bootstrap core CSS-->
+    <link href="~/admins/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- animate CSS-->
+    <link href="~/admins/assets/css/animate.css" rel="stylesheet" type="text/css" />
+    <!-- Icons CSS-->
+    <link href="~/admins/assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <!-- Sidebar CSS-->
+    <link href="~/admins/assets/css/sidebar-menu.css" rel="stylesheet" />
+    <!-- Custom Style-->
+    <link href="~/admins/assets/css/app-style.css" rel="stylesheet" />
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .content-wrapper {
+            min-height: calc(100vh - 60px);
+            padding-bottom: 0 !important;
+            margin-bottom: 0 !important;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container-fluid {
+            flex: 1;
+            padding-bottom: 20px;
+        }
+
+        /* Scrollbar geri geldi */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #1b1b1b;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #444;
+            border-radius: 10px;
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background-color: #666;
+            }
+    </style>
+
+    @RenderSection("Styles", required: false)
+</head>
+
+<body class="bg-theme bg-theme1">
+
+    <!-- Start wrapper-->
+    <div id="wrapper">
+
+        <!--Start sidebar-wrapper-->
+        <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
+            <div class="brand-logo">
+                <a href="@Url.Action("Index", "Dashboard")">
+                    <h5 class="logo-text">Admin Panel</h5>
+                </a>
+            </div>
+            <ul class="sidebar-menu do-nicescrol">
+                <li class="sidebar-header">ANA MENÜ</li>
+                <li>
+                    <a href="@Url.Action("Index", "AdminDefault")">
+                        <i class="zmdi zmdi-view-home"></i> <span>Siteye Git</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "AdminDefault")">
+                        <i class="zmdi zmdi-view-dashboard"></i> <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "AdminBlog")">
+                        <i class="zmdi zmdi-view-dashboard"></i> <span>Bloglar</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Index", "AdminTeam")">
+                        <i class="zmdi zmdi-invert-colors"></i> <span>Takımlar</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Index", "AdminPlayer")">
+                        <i class="zmdi zmdi-format-list-bulleted"></i> <span>Oyuncular</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Index", "AdminMatch")">
+                        <i class="zmdi zmdi-grid"></i> <span>Maçlar</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Index", "AdminComment")">
+                        <i class="zmdi zmdi-calendar-check"></i> <span>Yorumlar</span>
+                        <small class="badge float-right badge-light">İletişim</small>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Index", "SignOut")">
+                        <i class="zmdi zmdi-face"></i> <span>Çıkış Yap</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <header class="topbar-nav">
+            <nav class="navbar navbar-expand fixed-top">
+                <ul class="navbar-nav mr-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link toggle-menu" href="javascript:void();">
+                            <i class="icon-menu menu-icon"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav align-items-center right-nav-link">
+                    <li class="nav-item dropdown-lg">
+                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();">
+                            <i class="fa fa-envelope-open-o"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown-lg">
+                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();">
+                            <i class="fa fa-bell-o"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item language">
+                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();"><i class="fa fa-flag"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li class="dropdown-item"> <i class="flag-icon flag-icon-tr mr-2"></i> Türkçe</li>
+                            <li class="dropdown-item"> <i class="flag-icon flag-icon-gb mr-2"></i> English</li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="#">
+                            <span class="user-profile"><img src="https://via.placeholder.com/110x110" class="img-circle" alt="user avatar"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--End topbar header-->
+
+        <div class="clearfix"></div>
+
+        <!-- İçerik kısmı -->
+        <div class="content-wrapper">
+            <div class="container-fluid">
+                @RenderBody()
+            </div>
+        </div>
+        <!--End content-wrapper-->
+        <!--Start Back To Top Button-->
+        <a href="javascript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+        <!--End Back To Top Button-->
+        <!--start color switcher-->
+        <div class="right-sidebar">
+            <div class="switcher-icon">
+                <i class="zmdi zmdi-settings zmdi-hc-spin"></i>
+            </div>
+            <div class="right-sidebar-content">
+                <p class="mb-0">Gaussion Texture</p>
+                <hr>
+                <ul class="switcher">
+                    <li id="theme1"></li>
+                    <li id="theme2"></li>
+                    <li id="theme3"></li>
+                    <li id="theme4"></li>
+                    <li id="theme5"></li>
+                    <li id="theme6"></li>
+                </ul>
+                <p class="mb-0">Gradient Background</p>
+                <hr>
+                <ul class="switcher">
+                    <li id="theme7"></li>
+                    <li id="theme8"></li>
+                    <li id="theme9"></li>
+                    <li id="theme10"></li>
+                    <li id="theme11"></li>
+                    <li id="theme12"></li>
+                    <li id="theme13"></li>
+                    <li id="theme14"></li>
+                    <li id="theme15"></li>
+                </ul>
+            </div>
+        </div>
+        <!--end color switcher-->
+        <!--start overlay-->
+        <div class="overlay toggle-menu"></div>
+        <!--end overlay-->
+
+    </div>
+    <!--End wrapper-->
+    <!-- Bootstrap core JavaScript-->
+    <script src="~/admins/assets/js/jquery.min.js"></script>
+    <script src="~/admins/assets/js/popper.min.js"></script>
+    <script src="~/admins/assets/js/bootstrap.min.js"></script>
+    <script src="~/admins/assets/plugins/simplebar/js/simplebar.js"></script>
+    <script src="~/admins/assets/js/sidebar-menu.js"></script>
+    <script src="~/admins/assets/js/jquery.loading-indicator.js"></script>
+    <script src="~/admins/assets/js/app-script.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

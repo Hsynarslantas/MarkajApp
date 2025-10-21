@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "FootballApps.WebAPI\\FootballApps.WebAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "FootballApps.PresentationLayer\\FootballApps.PresentationLayer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

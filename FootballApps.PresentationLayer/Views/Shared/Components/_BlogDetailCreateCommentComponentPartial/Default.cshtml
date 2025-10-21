@@ -1,0 +1,26 @@
+﻿@model FootballApps.DtoLayer.Dtos.CommentDtos.CreateCommentDto
+<div class="comment-form-wrap pt-5">
+    <h3 class="mb-5">Yorum</h3>
+    <form asp-controller="Contact" asp-action="Create" method="post">
+        <div class="form-group">
+            <input asp-for="NameSurname" class="form-control" placeholder="İsim Soyisim" />
+        </div>
+        <div class="form-group">
+            <input asp-for="Email" class="form-control" placeholder="Email" />
+        </div>
+        <div class="form-group">
+            <input asp-for="Subject" class="form-control" placeholder="Konu" />
+        </div>
+        <div class="form-group">
+            <textarea asp-for="Body" class="form-control" rows="10" placeholder="Yorumunuz..."></textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary py-3 px-5" value="Gönder" />
+        </div>
+
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-info mt-3">@TempData["Message"]</div>
+        }
+    </form>
+</div>

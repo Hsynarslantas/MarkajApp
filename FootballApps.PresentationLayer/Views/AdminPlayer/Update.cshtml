@@ -1,0 +1,57 @@
+﻿@model UpdatePlayerDto
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <h2 class="mt-4 mb-4">Oyuncu Güncelle</h2>
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-info">@TempData["Message"]</div>
+    }
+
+    <form asp-action="Update" method="post">
+        <input type="hidden" asp-for="PlayerId" />
+
+        <div class="form-group mb-3">
+            <label asp-for="FullName">İsim</label>
+            <input class="form-control" asp-for="FullName" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Position">Pozisyon</label>
+            <textarea class="form-control" asp-for="Position" rows="5"></textarea>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="ShirtNumber">Forma Numarası</label>
+            <input class="form-control" asp-for="ShirtNumber" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="PhotoUrl">Görsel Url</label>
+            <input class="form-control" asp-for="PhotoUrl" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="PlayerVideoUrl">Futbolcu Video Url</label>
+            <input class="form-control" asp-for="PlayerVideoUrl" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Goals">Gol Sayısı</label>
+            <textarea class="form-control" asp-for="Goals" rows="3"></textarea>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="TeamId">Takım Id</label>
+            <input type="datetime-local" class="form-control" asp-for="TeamId" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Güncelle</button>
+        <a asp-action="Index" class="btn btn-secondary">İptal</a>
+    </form>
+</div>
+

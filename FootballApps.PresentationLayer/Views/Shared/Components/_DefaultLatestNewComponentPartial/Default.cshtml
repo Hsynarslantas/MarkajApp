@@ -1,0 +1,39 @@
+﻿@model List<ResultLatestNewDto>
+
+<div class="latest-news">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 title-section">
+                <h2 class="heading">Yeni Haberler</h2>
+            </div>
+        </div>
+
+        <div class="row no-gutters">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4">
+                    <div class="post-entry">
+                        <a href="#">
+                            <img src="@item.ImageUrl" style="height:300px;width:500px;" alt="Image" class="img-fluid">
+                        </a>
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <h3 class="mb-3">@item.Title</h3>
+                                <div class="author d-flex align-items-center">
+                                    <div class="img mb-2 mr-3">
+                                        <img src="@item.WriterImageUrl" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h4>@item.Writer</h4>
+                                        <span>@item.CreatedDate.ToShortDateString()</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+</div>

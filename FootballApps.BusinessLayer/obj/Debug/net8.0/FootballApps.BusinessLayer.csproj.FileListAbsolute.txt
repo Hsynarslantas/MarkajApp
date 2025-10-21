@@ -1,0 +1,17 @@
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\bin\Debug\net8.0\FootballApps.BusinessLayer.deps.json
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\bin\Debug\net8.0\FootballApps.BusinessLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\bin\Debug\net8.0\FootballApps.BusinessLayer.pdb
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\obj\Debug\net8.0\FootballApps.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\obj\Debug\net8.0\FootballApps.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\obj\Debug\net8.0\FootballApps.BusinessLayer.AssemblyInfo.cs
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\obj\Debug\net8.0\FootballApps.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\obj\Debug\net8.0\FootballApps.BusinessLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\obj\Debug\net8.0\refint\FootballApps.BusinessLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\obj\Debug\net8.0\FootballApps.BusinessLayer.pdb
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\obj\Debug\net8.0\ref\FootballApps.BusinessLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\bin\Debug\net8.0\FootballApps.DataAccessLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\bin\Debug\net8.0\FootballApps.EntityLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\bin\Debug\net8.0\FootballApps.DataAccessLayer.pdb
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\bin\Debug\net8.0\FootballApps.EntityLayer.pdb
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\obj\Debug\net8.0\FootballApps.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\natar\source\repos\FootballApps\FootballApps.BusinessLayer\obj\Debug\net8.0\Football.3BD0E42E.Up2Date

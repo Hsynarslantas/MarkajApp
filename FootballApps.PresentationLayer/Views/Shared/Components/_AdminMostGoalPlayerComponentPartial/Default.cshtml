@@ -1,0 +1,22 @@
+﻿@model List<ResultPlayerDto>
+<div class="card">
+    <div class="card-header">
+        Gol Krallığı
+    </div>
+    <div class="table-responsive">
+        <table class="table align-items-center">
+            <tbody>
+                @foreach (var player in Model)  
+                {
+                    <tr>
+                        <td>
+                            <img src="@player.PhotoUrl" alt="@player.FullName" width="30" height="30" class="mr-2" />
+                            @player.FullName
+                        </td>
+                        <td>@player.Goals</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

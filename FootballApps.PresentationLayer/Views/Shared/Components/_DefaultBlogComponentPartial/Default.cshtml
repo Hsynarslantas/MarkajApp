@@ -1,0 +1,26 @@
+﻿@model List<ResultBlogDto>
+<div class="container site-section">
+    <div class="row">
+        <div class="col-6 title-section">
+            <h2 class="heading">Köşe Yazıları</h2>
+        </div>
+    </div>
+    <div class="row">
+        @foreach(var item in Model.Take(2))
+        {
+        <div class="col-lg-6">
+            <div class="custom-media d-flex">
+                <div class="img mr-4">
+                    <img src="@item.ImageUrl" alt="Image" class="img-fluid">
+                </div>
+                <div class="text">
+                    <span class="meta">@item.CreatedDate.ToShortDateString()</span>
+                    <h3 class="mb-4"><a href="#">@item.Title</a></h3>
+                    <p>@item.Description.Substring(0,40) ... </p>
+                    <p><a href="#">Devamını Oku</a></p>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>

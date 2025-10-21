@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="card mt-3">
+    <div class="card-content">
+        <div class="row row-group m-0">
+            <div class="col-12 col-lg-6 col-xl-3 border-light">
+                @await Component.InvokeAsync("_AdminMaxPointTeamComponentPartial")
+            </div>
+            <div class="col-12 col-lg-6 col-xl-3 border-light">
+                @await Component.InvokeAsync("_AdminMinPointTeamComponentPartial")
+            </div>
+            <div class="col-12 col-lg-6 col-xl-3 border-light">
+                @await Component.InvokeAsync("_AdminMaxDrawTeamComponentPartial")
+            </div>
+            <div class="col-12 col-lg-6 col-xl-3 border-light">
+                @await Component.InvokeAsync("_AdminMostLoseTeamComponentPartial")
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 col-lg-8 col-xl-8">
+        @await Component.InvokeAsync("_AdminLeaderTeamComponentPartial")
+    </div>
+
+    <div class="col-12 col-lg-4 col-xl-4">
+            @await Component.InvokeAsync("_AdminMostGoalPlayerComponentPartial")
+    </div>
+</div><!--End Row-->
+
+<div class="row">
+    <div class="col-12 col-lg-12">
+        @await Component.InvokeAsync("_AdminMaxPoint5TeamComponentPartial")
+    </div>
+</div><!--End Row-->
+@section Scripts {
+    <!-- Chart js -->
+    <script src="~/admins/assets/plugins/Chart.js/Chart.min.js"></script>
+    <!-- Index js -->
+    <script src="~/admins/assets/js/index.js"></script>
+}
+

@@ -1,0 +1,13 @@
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\bin\Debug\net8.0\FootballApps.EntityLayer.deps.json
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\bin\Debug\net8.0\FootballApps.EntityLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\bin\Debug\net8.0\FootballApps.EntityLayer.pdb
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\obj\Debug\net8.0\FootballApps.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\obj\Debug\net8.0\FootballApps.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\obj\Debug\net8.0\FootballApps.EntityLayer.AssemblyInfo.cs
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\obj\Debug\net8.0\FootballApps.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\obj\Debug\net8.0\FootballApps.EntityLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\obj\Debug\net8.0\refint\FootballApps.EntityLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\obj\Debug\net8.0\FootballApps.EntityLayer.pdb
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\obj\Debug\net8.0\ref\FootballApps.EntityLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\bin\Debug\net8.0\FootballApps.EntityLayer.runtimeconfig.json
+C:\Users\natar\source\repos\FootballApps\FootballApps.EntityLayer\obj\Debug\net8.0\FootballApps.EntityLayer.genruntimeconfig.cache

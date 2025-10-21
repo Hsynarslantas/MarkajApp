@@ -1,0 +1,20 @@
+﻿@model List<ResultBlogDto>
+<div class="row">
+    @foreach(var item in Model)
+    {
+    <div class="col-lg-4 mb-4">
+        
+        <div class="custom-media d-block">
+            <div class="img mb-4">
+                <a href="single.html"><img src="@item.ImageUrl" style="width:400px;height:300px;" alt="Image" class="img-fluid"></a>
+            </div>
+            <div class="text">
+                <span class="meta">@item.CreatedDate.ToShortDateString()</span>
+                <h3 class="mb-4"><a href="#">@item.Title</a></h3>
+                <p>@item.Description.Substring(0,50) ...</p>
+                    <a href="@Url.Action("Detail", "Blog", new { id = item.BlogId })">Devamını Oku</a>
+            </div>
+        </div>
+    </div>
+    }
+</div>

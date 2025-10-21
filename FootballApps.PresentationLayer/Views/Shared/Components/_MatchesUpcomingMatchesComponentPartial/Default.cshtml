@@ -1,0 +1,53 @@
+﻿@model List<ResultsMatchDto>
+
+<div class="row">
+    <div class="col-12 title-section">
+        <h2 class="heading">Haftanın Maçları</h2>
+    </div>
+
+    @if (Model != null && Model.Any())
+    {
+        foreach (var item in Model.Where(x => x != null))
+        {
+            <div class="col-lg-6 mb-4">
+                <div class="bg-light p-4 rounded">
+                    <div class="widget-body">
+                        <div class="widget-vs">
+                            <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
+                                <div class="team-1 text-center">
+                                    <img src="@(item.HomeTeam?.LogoUrl ?? "/images/default-team.png")"
+                                         alt="@(item.HomeTeam?.Name ?? "Bilinmiyor")"
+                                         style="width:80px; height:80px; object-fit:contain;">
+                                    <h3>@(item.HomeTeam?.Name ?? "Bilinmiyor")</h3>
+                                </div>
+                                <div>
+                                    <span class="vs"><span>VS</span></span>
+                                </div>
+                                <div class="team-2 text-center">
+                                    <img src="@(item.AwayTeam?.LogoUrl ?? "/images/default-team.png")"
+                                         alt="@(item.AwayTeam?.Name ?? "Bilinmiyor")"
+                                         style="width:80px; height:80px; object-fit:contain;">
+                                    <h3>@(item.AwayTeam?.Name ?? "Bilinmiyor")</h3>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center widget-vs-contents mb-4">
+                        <h4>@(item.League ?? "Bilinmeyen Lig")</h4>
+                        <p class="mb-5">
+                            <span class="d-block">@item.MatchsDate.ToShortDateString()</span>
+                            <strong class="text-primary">@(item.Stadium ?? "Bilinmeyen Stadyum")</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-12">
+            <p>Gösterilecek maç bulunamadı.</p>
+        </div>
+    }
+</div>

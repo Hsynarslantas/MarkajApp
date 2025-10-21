@@ -1,0 +1,61 @@
+﻿@model List<ResultsMatchDto>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            @foreach (var match in Model)
+            {
+                <div class="d-flex team-vs">
+                    <span class="score">@match.HomeTeamScore - @match.AwayTeamScore</span>
+
+                    <!-- Ev Sahibi Takım -->
+                    <div class="team-1 w-50">
+                        <div class="team-details w-100 text-center">
+                            <img src="@match.HomeTeam?.LogoUrl" alt="@match.HomeTeam?.Name" class="img-fluid">
+                            <h3>
+                                @match.HomeTeam?.Name
+                                <span>(@(match.HomeTeamScore > match.AwayTeamScore ? "Kazanan" : match.HomeTeamScore == match.AwayTeamScore ? "Berabere" : "Kaybeden"))</span>
+                            </h3>
+                            <ul class="list-unstyled">
+                                @if (match.PlayerStatistics != null && match.HomeTeam?.Players != null)
+                                {
+                                    @foreach (var ps in match.PlayerStatistics.Where(ps => ps.Goals > 0))
+                                    {
+                                        var player = match.HomeTeam.Players.FirstOrDefault(p => p.PlayerId == ps.PlayerId);
+                                        if (player != null)
+                                        {
+                                            <li>@player.FullName (@ps.GoalMinutes')</li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Deplasman Takımı -->
+                    <div class="team-2 w-50">
+                        <div class="team-details w-100 text-center">
+                            <img src="@match.AwayTeam?.LogoUrl" alt="@match.AwayTeam?.Name" class="img-fluid">
+                            <h3>
+                                @match.AwayTeam?.Name
+                                <span>(@(match.AwayTeamScore > match.HomeTeamScore ? "Kazanan" : match.AwayTeamScore == match.HomeTeamScore ? "Berabere" : "Kaybeden"))</span>
+                            </h3>
+                            <ul class="list-unstyled">
+                                @if (match.PlayerStatistics != null && match.AwayTeam?.Players != null)
+                                {
+                                    @foreach (var ps in match.PlayerStatistics.Where(ps => ps.Goals > 0))
+                                    {
+                                        var player = match.AwayTeam.Players.FirstOrDefault(p => p.PlayerId == ps.PlayerId);
+                                        if (player != null)
+                                        {
+                                            <li>@player.FullName (@ps.GoalMinutes')</li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

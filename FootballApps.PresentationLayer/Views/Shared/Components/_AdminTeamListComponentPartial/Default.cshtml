@@ -1,0 +1,51 @@
+﻿@model List<ResultTeamDto>
+@{
+    int count = 0;
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Takım Listesi</h5>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Logo</th>
+                                <th scope="col">Takım İsmi</th>
+                                <th scope="col">Teknik Direktör</th>
+                                <th scope="col">Puan</th>
+                                <th scope="col">Sil</th>
+                                <th scope="col">Güncelle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <th scope="row">@count</th>
+                                    <td><img src="@item.LogoUrl" /></td>
+                                    <td>@item.Name</td>
+                                    <td>@item.CoachName</td>
+                                    <td>@item.Point.ToString("0")</td>
+                                    <td>
+                                        <form asp-controller="AdminTeam" asp-action="Delete" method="post" onsubmit="return confirm('Silmek istediğinizden emin misiniz?');">
+                                            <input type="hidden" name="teamId" value="@item.TeamId" />
+                                            <button class="btn btn-danger btn-sm" type="submit">Sil</button>
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <a href="@Url.Action("Update", "AdminTeam", new { id = item.TeamId })" class="btn btn-success btn-sm">Güncelle</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

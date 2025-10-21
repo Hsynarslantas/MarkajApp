@@ -1,0 +1,858 @@
+[
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.BlogsController",
+    "Method": "GetList",
+    "RelativePath": "api/Blogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.BlogsController",
+    "Method": "Create",
+    "RelativePath": "api/Blogs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.BlogDtos.CreateBlogDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.BlogsController",
+    "Method": "Update",
+    "RelativePath": "api/Blogs",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.BlogDtos.UpdateBlogDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.BlogsController",
+    "Method": "GetById",
+    "RelativePath": "api/Blogs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.BlogsController",
+    "Method": "Remove",
+    "RelativePath": "api/Blogs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.CommentsController",
+    "Method": "GetList",
+    "RelativePath": "api/Comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.CommentsController",
+    "Method": "Create",
+    "RelativePath": "api/Comments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.CommentDtos.CreateCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.CommentsController",
+    "Method": "Update",
+    "RelativePath": "api/Comments",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.CommentDtos.UpdateCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.CommentsController",
+    "Method": "GetById",
+    "RelativePath": "api/Comments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.CommentsController",
+    "Method": "Remove",
+    "RelativePath": "api/Comments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.CommentsController",
+    "Method": "GetCommentsByBlogId",
+    "RelativePath": "api/Comments/GetCommentsByBlogId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.ContactCommentsController",
+    "Method": "GetList",
+    "RelativePath": "api/ContactComments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.ContactCommentsController",
+    "Method": "Create",
+    "RelativePath": "api/ContactComments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.ContactCommentDtos.CreateContactCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.ContactCommentsController",
+    "Method": "Update",
+    "RelativePath": "api/ContactComments",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.ContactCommentDtos.UpdateContactCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.ContactCommentsController",
+    "Method": "GetById",
+    "RelativePath": "api/ContactComments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.ContactCommentsController",
+    "Method": "Remove",
+    "RelativePath": "api/ContactComments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.ContactsController",
+    "Method": "GetList",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.ContactsController",
+    "Method": "Create",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.ContactDtos.CreateContactDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.ContactsController",
+    "Method": "Update",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.ContactDtos.UpdateContactDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.ContactsController",
+    "Method": "GetById",
+    "RelativePath": "api/Contacts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.ContactsController",
+    "Method": "Remove",
+    "RelativePath": "api/Contacts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.LatestNewsController",
+    "Method": "GetList",
+    "RelativePath": "api/LatestNews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.LatestNewsController",
+    "Method": "Create",
+    "RelativePath": "api/LatestNews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.LatestNewDtos.CreateLatestNewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.LatestNewsController",
+    "Method": "Update",
+    "RelativePath": "api/LatestNews",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.LatestNewDtos.UpdateLatestNewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.LatestNewsController",
+    "Method": "GetById",
+    "RelativePath": "api/LatestNews/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.LatestNewsController",
+    "Method": "Remove",
+    "RelativePath": "api/LatestNews/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.MatchsController",
+    "Method": "GetList",
+    "RelativePath": "api/Matchs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.MatchsController",
+    "Method": "Create",
+    "RelativePath": "api/Matchs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.MatchsDtos.CreateMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.MatchsController",
+    "Method": "Update",
+    "RelativePath": "api/Matchs",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.MatchsDtos.UpdateMatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.MatchsController",
+    "Method": "GetById",
+    "RelativePath": "api/Matchs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.MatchsController",
+    "Method": "Remove",
+    "RelativePath": "api/Matchs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.MatchsController",
+    "Method": "Get4UpcomingMatchEvent",
+    "RelativePath": "api/Matchs/Get4UpcomingMatchEvent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.MatchsController",
+    "Method": "GetListWithTeams",
+    "RelativePath": "api/Matchs/GetListWithTeams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.MatchsController",
+    "Method": "GetUpcomingMatchEvent",
+    "RelativePath": "api/Matchs/GetUpcomingMatchEvent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayersController",
+    "Method": "GetList",
+    "RelativePath": "api/Players",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayersController",
+    "Method": "Create",
+    "RelativePath": "api/Players",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.PlayerDtos.CreatePlayerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayersController",
+    "Method": "Update",
+    "RelativePath": "api/Players",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.PlayerDtos.UpdatePlayerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayersController",
+    "Method": "GetById",
+    "RelativePath": "api/Players/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayersController",
+    "Method": "Remove",
+    "RelativePath": "api/Players/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayersController",
+    "Method": "GetMostGoal5Players",
+    "RelativePath": "api/Players/GetMostGoal5Players",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayersController",
+    "Method": "GetStarPlayers",
+    "RelativePath": "api/Players/GetStarPlayers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayerStatisticsController",
+    "Method": "GetList",
+    "RelativePath": "api/PlayerStatistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayerStatisticsController",
+    "Method": "Create",
+    "RelativePath": "api/PlayerStatistics",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.PlayerMatchStatisticsDtos.CreatePlayerMatchStatisticDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayerStatisticsController",
+    "Method": "Update",
+    "RelativePath": "api/PlayerStatistics",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.PlayerMatchStatisticsDtos.UpdatePlayerMatchStatisticDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayerStatisticsController",
+    "Method": "GetById",
+    "RelativePath": "api/PlayerStatistics/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.PlayerStatisticsController",
+    "Method": "Remove",
+    "RelativePath": "api/PlayerStatistics/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.TeamsController",
+    "Method": "GetList",
+    "RelativePath": "api/Teams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.TeamsController",
+    "Method": "Create",
+    "RelativePath": "api/Teams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.TeamDtos.CreateTeamDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.TeamsController",
+    "Method": "Update",
+    "RelativePath": "api/Teams",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.TeamDtos.UpdateTeamDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.TeamsController",
+    "Method": "GetById",
+    "RelativePath": "api/Teams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.TeamsController",
+    "Method": "Remove",
+    "RelativePath": "api/Teams/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.TeamsController",
+    "Method": "GetMaxDrawByTeam",
+    "RelativePath": "api/Teams/GetMaxDrawByTeam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.TeamsController",
+    "Method": "GetMaxPointByTeam",
+    "RelativePath": "api/Teams/GetMaxPointByTeam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.TeamsController",
+    "Method": "GetMinPointByTeam",
+    "RelativePath": "api/Teams/GetMinPointByTeam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.TeamsController",
+    "Method": "GetTeamsWithPoints",
+    "RelativePath": "api/Teams/GetTeamsWithPoints",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.TeamsController",
+    "Method": "GetTeamWithMostLosses",
+    "RelativePath": "api/Teams/GetTeamWithMostLosses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.VideosController",
+    "Method": "GetList",
+    "RelativePath": "api/Videos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.VideosController",
+    "Method": "Create",
+    "RelativePath": "api/Videos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.VideoDtos.CreateVideoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.VideosController",
+    "Method": "Update",
+    "RelativePath": "api/Videos",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FootballApps.DtoLayer.Dtos.VideoDtos.UpdateVideoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.VideosController",
+    "Method": "GetById",
+    "RelativePath": "api/Videos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballApps.WebAPI.Controllers.VideosController",
+    "Method": "Remove",
+    "RelativePath": "api/Videos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

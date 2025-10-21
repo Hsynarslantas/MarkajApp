@@ -1,0 +1,23 @@
+﻿@model List<ResultContactDto>
+
+<div class="col-lg-4 ml-auto">
+    @foreach(var item in Model)
+    {
+    <ul class="list-unstyled">
+        <li class="mb-2">
+            <strong class="text-white d-block">Adres:</strong>
+           @item.Address
+        </li>
+        <li class="mb-2">
+            <strong class="text-white d-block">Email:</strong>
+            <a href="#">@item.Email</a>
+        </li>
+        <li class="mb-2">
+            <strong class="text-white d-block">
+                Telefon Numarası:
+            </strong>
+            <a href="#">@item.PhoneNumber</a>
+        </li>
+    </ul>
+    }
+</div>

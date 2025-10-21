@@ -1,0 +1,17 @@
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\bin\Debug\net8.0\FootballApps.DataAccessLayer.deps.json
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\bin\Debug\net8.0\FootballApps.DataAccessLayer.runtimeconfig.json
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\bin\Debug\net8.0\FootballApps.DataAccessLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\bin\Debug\net8.0\FootballApps.DataAccessLayer.pdb
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\bin\Debug\net8.0\FootballApps.EntityLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\bin\Debug\net8.0\FootballApps.EntityLayer.pdb
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\obj\Debug\net8.0\FootballApps.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\obj\Debug\net8.0\FootballApps.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\obj\Debug\net8.0\FootballApps.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\obj\Debug\net8.0\FootballApps.DataAccessLayer.AssemblyInfo.cs
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\obj\Debug\net8.0\FootballApps.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\obj\Debug\net8.0\Football.FDB0A43B.Up2Date
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\obj\Debug\net8.0\FootballApps.DataAccessLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\obj\Debug\net8.0\refint\FootballApps.DataAccessLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\obj\Debug\net8.0\FootballApps.DataAccessLayer.pdb
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\obj\Debug\net8.0\FootballApps.DataAccessLayer.genruntimeconfig.cache
+C:\Users\natar\source\repos\FootballApps\FootballApps.DataAccessLayer\obj\Debug\net8.0\ref\FootballApps.DataAccessLayer.dll

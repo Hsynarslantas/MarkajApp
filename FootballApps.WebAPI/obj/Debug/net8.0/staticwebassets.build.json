@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Vm8P7ar0NKOIrFQcR5VRYdGkXhWvqmV/LzWezN5ObEk=",
+  "Source": "FootballApps.WebAPI",
+  "BasePath": "_content/FootballApps.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

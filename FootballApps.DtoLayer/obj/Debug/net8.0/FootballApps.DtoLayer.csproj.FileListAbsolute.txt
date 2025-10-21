@@ -1,0 +1,11 @@
+C:\Users\natar\source\repos\FootballApps\FootballApps.DtoLayer\bin\Debug\net8.0\FootballApps.DtoLayer.deps.json
+C:\Users\natar\source\repos\FootballApps\FootballApps.DtoLayer\bin\Debug\net8.0\FootballApps.DtoLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.DtoLayer\bin\Debug\net8.0\FootballApps.DtoLayer.pdb
+C:\Users\natar\source\repos\FootballApps\FootballApps.DtoLayer\obj\Debug\net8.0\FootballApps.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natar\source\repos\FootballApps\FootballApps.DtoLayer\obj\Debug\net8.0\FootballApps.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\natar\source\repos\FootballApps\FootballApps.DtoLayer\obj\Debug\net8.0\FootballApps.DtoLayer.AssemblyInfo.cs
+C:\Users\natar\source\repos\FootballApps\FootballApps.DtoLayer\obj\Debug\net8.0\FootballApps.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\natar\source\repos\FootballApps\FootballApps.DtoLayer\obj\Debug\net8.0\FootballApps.DtoLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.DtoLayer\obj\Debug\net8.0\refint\FootballApps.DtoLayer.dll
+C:\Users\natar\source\repos\FootballApps\FootballApps.DtoLayer\obj\Debug\net8.0\FootballApps.DtoLayer.pdb
+C:\Users\natar\source\repos\FootballApps\FootballApps.DtoLayer\obj\Debug\net8.0\ref\FootballApps.DtoLayer.dll

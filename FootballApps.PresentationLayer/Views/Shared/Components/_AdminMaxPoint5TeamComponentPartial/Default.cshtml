@@ -1,0 +1,35 @@
+﻿@model List<ResultTeamDto>
+@{
+    int count = 0;
+}
+<div class="card">
+    <div class="card-header">
+        Lig Tablosu İlk 5 Takım
+    </div>
+    <div class="table-responsive">
+        <table class="table align-items-center table-flush table-borderless">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Logo</th>
+                    <th>Takım</th>
+                    <th>Teknik Direktör</th>
+                    <th>Puan</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model.Take(5))
+                {
+                    count++;
+                    <tr>
+                    <td>@count</td>
+                    <td><img src="@item.LogoUrl" class="product-img" alt="product img"></td>
+                    <td>@item.Name</td>
+                    <td>@item.CoachName</td>
+                    <td>@item.Point.ToString("0")</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

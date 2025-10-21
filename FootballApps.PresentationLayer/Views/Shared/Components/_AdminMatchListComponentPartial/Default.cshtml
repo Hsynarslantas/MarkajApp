@@ -1,0 +1,53 @@
+﻿@model List<ResultsMatchDto>
+@{
+    int count = 0;
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Blog Listesi</h5>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Maç Tarihi</th>
+                                <th scope="col">Stadyum</th>
+                                <th scope="col">Lig</th>
+                                <th scope="col">Ev Sahibi Takım</th>
+                                <th scope="col">Deplasman Takımı</th>
+                                <th scope="col">Sil</th>
+                                <th scope="col">Güncelle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <th scope="row">@count</th>
+                                    <td>@item.MatchsDate.ToShortDateString()</td>
+                                    <td>@item.Stadium</td>
+                                    <td>@item.League</td>
+                                    <td>@item.HomeTeam?.Name</td>
+                                    <td>@item.AwayTeam?.Name</td>
+                                    <td>
+                                        <form asp-controller="AdminMatch" asp-action="Delete" method="post" onsubmit="return confirm('Silmek istediğinizden emin misiniz?');">
+                                            <input type="hidden" name="matchsId" value="@item.MatchsId" />
+                                            <button class="btn btn-danger btn-sm" type="submit">Sil</button>
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <a href="@Url.Action("Update", "AdminMatch", new { id = item.MatchsId })" class="btn btn-success btn-sm">Güncelle</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
